@@ -1,0 +1,175 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Georgia, sans-serif;
+    font-size: large;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+section h2 {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a galeria de fotos */
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 350px;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px; 
+}
+
+/* Estilos da Discografia */
+.album {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.album img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.album-info {
+    flex: 1;
+}
+
+.album-info h3 {
+    margin-top: 0;
+}
+
+.album-info p {
+    margin-top: 0;
+}
+/*Estilos do contato*/
+#contato {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Estilos da página de Shows */
+#shows {
+    text-align: center;
+}
+
+#shows ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#shows ul li {
+    margin-bottom: 10px;
+}
